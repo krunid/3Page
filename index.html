@@ -1,0 +1,63 @@
+     
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>แบ่งพื้นที่หน้าจอ</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      height: 100vh; /* ใช้ความสูงเต็มจอ */
+    }
+
+    header {
+      height: 80px;
+      width: 100%;
+      background-color: #4CAF50; /* สีพื้นหลังตัวอย่าง */
+      text-align: center;
+      line-height: 80px; /* จัดข้อความให้อยู่กลางแนวตั้ง */
+      color: white;
+      font-size: 20px;
+    }
+
+    main {
+      flex: 1; /* ให้ส่วนนี้ขยายตัวตามพื้นที่ว่าง */
+      width: 100%;
+      background-color: #f0f0f0; /* สีพื้นหลังตัวอย่าง */
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer {
+      height: 80px;
+      width: 100%;
+      background-color: #333; /* สีพื้นหลังตัวอย่าง */
+      text-align: center;
+      line-height: 80px; /* จัดข้อความให้อยู่กลางแนวตั้ง */
+      color: white;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    ส่วนหัว (Header)
+  </header>
+  <main>
+    ส่วนเนื้อหา (Content)
+  </main>
+  <footer>
+    ส่วนท้าย (Footer)
+  </footer>
+</body>
+</html>
+
+    
